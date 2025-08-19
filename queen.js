@@ -119,7 +119,7 @@ async function connectToWA() {
       console.log("connected to whatsapp ✅");
       // Assuming `config` contains all the settings
       let up = `
-          🚀 **© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚 Connected Successfully!** ✅ 
+          🎁 DILA-MD💥 Connected Successfully!** ✅ 
           
           --- **🎉 Welcome to © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚!** 🎉 
           ✦» 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${require("./package.json").version}
@@ -164,7 +164,7 @@ async function connectToWA() {
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363299978149557@newsletter",
+            newsletterJid: "120363417599449006@newsletter",
             newsletterName: "© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
             serverMessageId: 999,
           },
@@ -377,8 +377,6 @@ async function connectToWA() {
         command: commandName,
         args,
         q,
-        apikey,
-        baseurl,
         isGroup,
         sender,
         senderNumber,
